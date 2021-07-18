@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    padding-top: 400;
+}
+
+#img1 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
+
+#welcome {
+    position: absolute;
+    overflow: hidden;
+    height: 400px;
+    color: white;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    top: 0;
+    opacity: 0.8;
+    background: linear-gradient(red, yellow);
+    width: 100%;
+    z-index: 9;
+}
+
+.name {
+    font-size: 30px;
+    font-family: 'Cinzel Decorative', cursive;
+}
+
+#bio {
+    text-align: center;
+    font-size: 25px;
+    color: aqua;
+    background: white;
+}
+
+.menu {
+    list-style: none;
+    font-family: 'Cinzel Decorative', cursive;
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.links {
+    float: left;
+    color: cornsilk;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 9px;
+    padding-right: 9px;
+
+}
+
+.links:hover {
+    background-color: blue;
+}
